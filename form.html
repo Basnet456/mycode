@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="robots" content="noindex" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>アンケート</title>
+    <!-- firebase  -->
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase-messaging.js"></script>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+
+  <body>
+    <label>にちようび</label>
+    <div class="days">
+      <input
+        type="checkbox"
+        name="first"
+        value="にちようび"
+        id="morning1"
+      />いる
+      <br />
+    </div>
+
+    <label>げつようび</label>
+    <div class="days">
+      <input
+        type="checkbox"
+        name="second"
+        value="げつようび"
+        id="morning1"
+      />いる
+      <br />
+    </div>
+
+    <label>かようび</label>
+    <div class="days">
+      <input type="checkbox" name="third" value="かようび" id="morning1" />いる
+      <br />
+    </div>
+
+    <label>すいようび</label>
+    <div class="days">
+      <input
+        type="checkbox"
+        name="fourth"
+        value="すいようび"
+        id="morning1"
+      />いる
+      <br />
+    </div>
+
+    <label>もくようび</label>
+    <div class="days">
+      <input
+        type="checkbox"
+        name="fifth"
+        value="もくようび"
+        id="morning1"
+      />いる
+      <br />
+    </div>
+
+    <label>にちようび</label>
+    <div class="days">
+      <input
+        type="checkbox"
+        name="sixth"
+        value="きんようび"
+        id="morning1"
+      />いる
+      <br />
+    </div>
+    <label>どようび</label>
+    <div class="days">
+      <input
+        type="checkbox"
+        name="seventh"
+        value="どようび"
+        id="morning1"
+      />いる
+
+      <br />
+    </div>
+    <button id="buttonSend">ほぞん</button>
+    <button id="buttonReturn">もどる</button>
+
+    <script src="./config.js"></script>
+    <script src="./form.js"></script>
+  </body>
+</html>

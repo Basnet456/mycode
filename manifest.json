@@ -1,0 +1,21 @@
+{
+  "name": "あぷりでこども110ばん",
+  "short_name": "app",
+  "description": "あぷりでこども110ばん",
+  "start_url": "./",
+  "display": "standalone",
+  "lang": "ja",
+  "dir": "auto",
+  "orientation": "any",
+  "theme_color": "#2196f3",
+  "background_color": "#2196f3",
+  "icons": [
+    {
+      "src": "./kodomo_110ban.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    }
+  ],
+  "scope": "./",
+  "gcm_sender_id": "103953800507"
+}

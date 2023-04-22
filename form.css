@@ -1,0 +1,77 @@
+@media screen and (min-width: 481px) {
+  html {
+    height: 100%;
+    background-color: skyblue;
+  }
+
+  body {
+    height: 100%;
+    text-align: center;
+    background-color: skyblue;
+  }
+
+  .days {
+    padding-left: 20px;
+  }
+
+  .form {
+    padding-left: 50%;
+  }
+
+  div,
+  input {
+    margin: 4px 20px 4px 20px;
+    font-size: 1.275em;
+  }
+  label {
+    font-size: 1.475em;
+  }
+
+  /* button */
+
+  button {
+    font-size: 30px;
+    background-color: #e2001b;
+  }
+  #buttonSend {
+    margin-right: 60px;
+    margin-left: 10px;
+  }
+}
+@media screen and (max-width: 480px) {
+  body {
+    text-align: center;
+    background-color: skyblue;
+  }
+  html {
+    text-align: center;
+    margin: auto;
+  }
+
+  button {
+    height: auto;
+    width: auto;
+  }
+
+  label {
+    font-size: 30px;
+  }
+
+  label {
+    margin-top: 30px;
+  }
+  div,
+  input {
+    margin: 5px 20px 5px 20px;
+    font-size: 20px;
+  }
+  button {
+    margin-top: 10%;
+    font-size: 30px;
+    background-color: #e2001b;
+  }
+  #buttonSend {
+    margin-right: 60px;
+    margin-left: 10px;
+  }
+}
